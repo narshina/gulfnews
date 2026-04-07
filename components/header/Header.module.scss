@@ -1,0 +1,35 @@
+.header{
+    background-color: #FFFFFF;
+    height: 48px;
+      display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 56px;
+  border-radius: 8px;
+
+
+  .arrowLink{
+    background-color: #002748;
+    padding: 14px 24px;
+    border-radius: 8px;
+
+    img{
+      width: 24px;
+      height: 10px;
+      object-fit: contain;
+    }
+  }
+
+  .breadCrumb{
+    background-color: #E0F5F8;
+    border-radius: 8px;
+    padding: 14px 24px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+     display: flex;
+  align-items: center;
+  gap: 8px;
+  }
+}
