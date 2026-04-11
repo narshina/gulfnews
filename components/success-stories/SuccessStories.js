@@ -6,6 +6,7 @@ import img1 from "@/public/img1.png"
 import img2 from "@/public/img2.png"
 import img3 from "@/public/img3.png"
 import img4 from "@/public/img4.png"
+import Link from 'next/link'
 
 
 
@@ -39,8 +40,6 @@ const SuccessStories = () => {
         },
     ];
     return (
-
-
         <>
             <section>
 
@@ -80,7 +79,8 @@ const SuccessStories = () => {
                 <div className='container'>
                     <div className={styles.grid}>
                         {data.map((item, index) => (
-                            <div key={index} className={styles.card}>
+                         <Link href="" key={index}> 
+                           <div  className={styles.card}>
 
 
                                 <div className={styles.imgWrap}>
@@ -105,7 +105,7 @@ const SuccessStories = () => {
                                     </div>
                                 </div>
 
-                            </div>
+                            </div></Link>
                         ))}
                     </div>
                 </div>

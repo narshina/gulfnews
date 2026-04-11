@@ -99,7 +99,6 @@
         height: 100%;
         object-fit: cover;
         border-radius: 16px;
-
         @media (max-width: 425px) {
             border-radius: 8px;
         }
@@ -146,8 +145,7 @@
             @media (max-width: 768px) {
                 flex-direction: column;
             }
-            
-
+         
             .card {
                 flex: 1;
                 border: 1.5px solid #EDF1F4;
@@ -384,7 +382,7 @@
 }
 .readMore {
     background-color: #E9F2F9;
-    padding: 56px 65px;
+    padding: 56px 0;
 
     @media (max-width: 1024px) {
         padding: 48px 40px;

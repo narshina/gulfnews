@@ -7,6 +7,7 @@ import image from "@/public/video.png"
 import "@/app/globals.css"
 import img1 from "@/public/img1.png"
 import img2 from "@/public/img2.png"
+import Link from 'next/link'
 
 const Detailpage = () => {
      const data = [
@@ -209,7 +210,8 @@ const Detailpage = () => {
 
                       <div className={styles.grid}>
                         {data.map((item, index) => (
-                            <div key={index} className={styles.card}>
+                     <Link href="" key={index}> 
+                           <div  className={styles.card}>
 
 
                                 <div className={styles.imgWrap}>
@@ -234,7 +236,7 @@ const Detailpage = () => {
                                     </div>
                                 </div>
 
-                            </div>
+                            </div></Link>
                         ))}
                     </div>
                 </div>
