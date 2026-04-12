@@ -2,6 +2,10 @@ import React from 'react'
 import styles from './Success-stories.module.scss'
 import Image from 'next/image'
 import "@/app/globals.css"
+import img1 from "@/public/img1.png"
+import img2 from "@/public/img2.png"
+import img3 from "@/public/img3.png"
+import img4 from "@/public/img4.png"
 
 
 
@@ -10,25 +14,25 @@ const SuccessStories = () => {
 
     const data = [
         {
-            img: "/img1.png",
+            img: img1,
             title: "Luxury Hospitality Brand",
             ctr: "1.25%",
             impressions: "1M+"
         },
         {
-            img: "/img2.png",
+            img: img2,
             title: "Luxury Hospitality Brand",
             ctr: "1.25%",
             impressions: "1M+"
         },
         {
-            img: "/img3.png",
+            img: img3,
             title: "Luxury Hospitality Brand",
             ctr: "1.25%",
             impressions: "1M+"
         },
         {
-            img: "/img4.png",
+            img: img4,
             title: "Luxury Hospitality Brand",
             ctr: "1.25%",
             impressions: "1M+"
@@ -80,7 +84,7 @@ const SuccessStories = () => {
 
 
                                 <div className={styles.imgWrap}>
-                                    <Image src={item.img} alt={item.title} width={192} height={192} />
+                                    <Image src={item.img} alt={item.title}  />
 
                                 </div>
 
